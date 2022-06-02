@@ -1,0 +1,15 @@
+
+The Meeting Room Booking System (MRBS) is a PHP-based application for
+booking meeting rooms (surprisingly!). 
+Requirements:
+-------------
+- PHP 7.2 or above with MySQL and/or PostgreSQL support
+- MySQL (5.5.3 and above) or PostgreSQL 8.2 or above.
+- Any web server that is supported by PHP
+
+Recommended:
+- JavaScript-enabled browser
+- PHP module connection to the server (also called SAPI) if you want to use any
+  of the basic http authentication schemes provided.
+
+
