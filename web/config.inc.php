@@ -43,7 +43,7 @@ $timezone = "Europe/London";
  * Database settings
  ******************/
 // Which database system: "pgsql"=PostgreSQL, "mysql"=MySQL
-$dbsys = "postgres";
+$dbsys = "pgsql";
 // Hostname of database server. For pgsql, can use "" instead of localhost
 // to use Unix Domain Sockets instead of TCP/IP. For mysql "localhost"
 // tells the system to use Unix Domain Sockets, and $db_port will be ignored;
