@@ -43,25 +43,25 @@ $timezone = "Europe/London";
  * Database settings
  ******************/
 // Which database system: "pgsql"=PostgreSQL, "mysql"=MySQL
-$dbsys = "mysql";
+$dbsys = "postgres";
 // Hostname of database server. For pgsql, can use "" instead of localhost
 // to use Unix Domain Sockets instead of TCP/IP. For mysql "localhost"
 // tells the system to use Unix Domain Sockets, and $db_port will be ignored;
 // if you want to force TCP connection you can use "127.0.0.1".
-$db_host = "sql4.freemysqlhosting.net";
+$db_host = "ec2-52-73-184-24.compute-1.amazonaws.com";
 // If you need to use a non standard port for the database connection you
 // can uncomment the following line and specify the port number
 // $db_port = 1234;
 // Database name:
-$db_database = "sql4496700";
+$db_database = "d499b8je2fu6gg";
 // Schema name.  This only applies to PostgreSQL and is only necessary if you have more
 // than one schema in your database and also you are using the same MRBS table names in
 // multiple schemas.
 //$db_schema = "public";
 // Database login user name:
-$db_login = "sql4496700";
+$db_login = "zzlxsmeyccpvqa";
 // Database login password:
-$db_password = 'zyjiNNj4jX';
+$db_password = 'e7149bbc5176f5776b1d76c5426b897d6a97ef136e6581bc1f7ec6a182645695';
 // Prefix for table names.  This will allow multiple installations where only
 // one database is available
 $db_tbl_prefix = "mrbs_";
